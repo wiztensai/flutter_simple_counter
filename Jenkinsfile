@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     stages {       
-        stage('Build apk') {
+        stage('Build apkk') {
             steps {
                 build job: 'build apk'
             }
