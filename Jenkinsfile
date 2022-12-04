@@ -2,14 +2,14 @@ pipeline {
     agent any
     
     stages {       
-        stage('Build apkk') {
+        stage('Build APK') {
             steps {
-                build job: 'build apk'
+                build job: 'Build APK'
             }
         }
         stage('Tes Android') {
             steps {
-                build job: 'test android'
+                build job: 'Test Android'
             }
         }
     }
